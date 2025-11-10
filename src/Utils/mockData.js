@@ -918,7 +918,6 @@
 // }
 // ]
 
-
 export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
@@ -5417,3 +5416,1552 @@ export const menuData = {
     "deviceId": "ed394ab9-3982-dc5b-dbf8-7b8b6eb08c4e",
     "csrfToken": "EJSED6e7QbDq-UwP-agYqmfEhi9umC5aaaB4TFTc"
 }
+export const menuData1 = {
+  "data": [
+    {
+      "info": { "id": "10576", "name": "Pizza Hut" },
+      "menu": [
+        {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+              "id": "105761",
+              "name": "Margherita Pizza",
+              "category": "Pizzas",
+              "description": "Classic cheese and tomato pizza with 100% mozzarella.",
+              "imageId": "pizza_margherita_10576.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 22900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "105762",
+              "name": "Veggie Supreme",
+              "category": "Pizzas",
+              "description": "Loaded with crisp capsicum, onions, and juicy sweet corn.",
+              "imageId": "pizza_veggie_supreme_10576.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 33900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "426776", "name": "Theobroma" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "4267761",
+              "name": "Chocolate Truffle Pastry",
+              "category": "Desserts",
+              "description": "Rich dark chocolate pastry topped with ganache.",
+              "imageId": "theobroma_truffle_426776.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 19500
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "4267762",
+              "name": "Red Velvet Cupcake",
+              "category": "Cupcakes",
+              "description": "Soft red velvet cake topped with cream cheese frosting.",
+              "imageId": "theobroma_redvelvet_426776.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 14500
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "426777", "name": "Chinese Wok" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "4267771",
+              "name": "Veg Schezwan Noodles",
+              "category": "Chinese",
+              "description": "Spicy stir-fried noodles tossed with veggies and Schezwan sauce.",
+              "imageId": "wok_schezwan_noodles.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 20900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "4267772",
+              "name": "Chicken Fried Rice",
+              "category": "Chinese",
+              "description": "Aromatic rice stir-fried with eggs, chicken, and soy sauce.",
+              "imageId": "wok_fried_rice.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 22900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "49841", "name": "Ibaco" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "498411",
+              "name": "Belgian Chocolate Ice Cream",
+              "category": "Ice Creams",
+              "description": "Premium chocolate ice cream made with Belgian cocoa.",
+              "imageId": "ibaco_belgian_choco.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 16500
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "498412",
+              "name": "Caramel Crunch Sundae",
+              "category": "Sundaes",
+              "description": "A creamy caramel sundae with crunchy toppings.",
+              "imageId": "ibaco_caramel_crunch.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 18900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "5934", "name": "Burger King" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "59341",
+              "name": "Whopper",
+              "category": "Burgers",
+              "description": "Signature flame-grilled beef burger with lettuce and tomato.",
+              "imageId": "bk_whopper.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 24900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "59342",
+              "name": "Crispy Veg Burger",
+              "category": "Burgers",
+              "description": "Crispy patty made with garden vegetables and mayo.",
+              "imageId": "bk_crispyveg.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 14900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "671928", "name": "KFC" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "6719281",
+              "name": "Zinger Burger",
+              "category": "Burgers",
+              "description": "Crispy chicken fillet, lettuce, and mayo in a sesame bun.",
+              "imageId": "kfc_zinger.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 19900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "6719282",
+              "name": "Hot & Crispy Chicken (2pc)",
+              "category": "Chicken Buckets",
+              "description": "KFC’s iconic crispy chicken pieces with secret herbs and spices.",
+              "imageId": "kfc_hotcrispy.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 24900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "140887", "name": "McDonald's" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "1408871",
+              "name": "McAloo Tikki Burger",
+              "category": "Burgers",
+              "description": "Iconic burger with spiced potato patty and tangy sauce.",
+              "imageId": "mcd_alooburger.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 12900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "1408872",
+              "name": "Chicken McNuggets (6pc)",
+              "category": "Snacks",
+              "description": "Crispy golden chicken nuggets served with sauce.",
+              "imageId": "mcd_nuggets.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 18900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "717421", "name": "Paris Pani Puri" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "7174211",
+              "name": "Pani Puri Plate",
+              "category": "Snacks",
+              "description": "Tangy, spicy water-filled puris with potato filling.",
+              "imageId": "paris_panipuri_plate.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 9900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "7174212",
+              "name": "Ragda Puri",
+              "category": "Snacks",
+              "description": "Crispy puris stuffed with ragda and tangy chutneys.",
+              "imageId": "paris_ragda.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 11900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "41913", "name": "Chinita Real Mexican Food" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "419131",
+              "name": "Chicken Burrito Bowl",
+              "category": "Mexican",
+              "description": "Rice, beans, salsa, and chicken topped with cheese and sour cream.",
+              "imageId": "chinita_burrito_bowl.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 32900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "419132",
+              "name": "Veg Tacos (2pcs)",
+              "category": "Mexican",
+              "description": "Crispy taco shells filled with sautéed veggies and salsa.",
+              "imageId": "chinita_tacos.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 25900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "158855", "name": "Candice's Gourmet Sandwich" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "1588551",
+              "name": "Grilled Chicken Sandwich",
+              "category": "Sandwiches",
+              "description": "Grilled chicken, lettuce, and mayo on multigrain bread.",
+              "imageId": "candice_chickensandwich.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 21900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "1588552",
+              "name": "Paneer Tikka Sandwich",
+              "category": "Sandwiches",
+              "description": "Spicy paneer cubes with mint chutney and cheese.",
+              "imageId": "candice_paneer.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 18900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "50467", "name": "Bakingo" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "504671",
+              "name": "Chocolate Truffle Cake",
+              "category": "Cakes",
+              "description": "Moist chocolate sponge layered with rich ganache.",
+              "imageId": "bakingo_truffle.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 49900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "504672",
+              "name": "Fruit Cake",
+              "category": "Cakes",
+              "description": "Soft vanilla sponge with fresh fruits and whipped cream.",
+              "imageId": "bakingo_fruitcake.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 45900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "718430", "name": "Pizza Factory" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "7184301",
+              "name": "Pepperoni Pizza",
+              "category": "Pizzas",
+              "description": "Classic pepperoni pizza with mozzarella cheese.",
+              "imageId": "pf_pepperoni.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 31900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "7184302",
+              "name": "Farmhouse Pizza",
+              "category": "Pizzas",
+              "description": "Loaded with onions, capsicum, tomatoes & mushrooms.",
+              "imageId": "pf_farmhouse.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 28900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "736632", "name": "Salad Point" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "7366321",
+              "name": "Caesar Salad",
+              "category": "Salads",
+              "description": "Crisp lettuce, croutons, and parmesan tossed in Caesar dressing.",
+              "imageId": "saladpoint_caesar.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 19900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "7366322",
+              "name": "Grilled Chicken Salad",
+              "category": "Salads",
+              "description": "Fresh greens topped with grilled chicken and vinaigrette.",
+              "imageId": "saladpoint_chickensalad.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 22900
+            }
+          }
+        }
+      ]
+    },
+    {
+      "info": { "id": "733092", "name": "Caters Point" },
+      "menu": [
+        {
+          "card": {
+            "info": {
+              "id": "7330921",
+              "name": "Paneer Butter Masala with Rice",
+              "category": "North Indian",
+              "description": "Rich creamy curry served with steamed basmati rice.",
+              "imageId": "caters_paneer_rice.jpg",
+              "inStock": 1,
+              "isVeg": 1,
+              "price": 25900
+            }
+          }
+        },
+        {
+          "card": {
+            "info": {
+              "id": "7330922",
+              "name": "Chicken Tikka Combo",
+              "category": "North Indian",
+              "description": "Grilled chicken tikka with roti and salad.",
+              "imageId": "caters_tikka_combo.jpg",
+              "inStock": 1,
+              "isVeg": 0,
+              "price": 28900
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+export const restaurantList1 = {
+    "restaurants":
+     [
+                                    {
+                                        "info": {
+                                            "id": "10576",
+                                            "name": "Pizza Hut",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/bb48c990-87ae-4884-83d8-03d73f3cd2a7_10576.JPG",
+                                            "locality": "6th Block",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹350 for two",
+                                            "cuisines": [
+                                                "Pizzas"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "parentId": "721",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "22K+",
+                                            "sla": {
+                                                "deliveryTime": 21,
+                                                "lastMileTravel": 0.7,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "0.7 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-11 05:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "₹200 OFF",
+                                                "subHeader": "ABOVE ₹799",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.6",
+                                                    "ratingCount": "3.7K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/pizza-hut-6th-block-koramangala-rest10576",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "426776",
+                                            "name": "Theobroma",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/27/048e82ee-426f-4063-bfa3-b411eca21c14_426776.JPG",
+                                            "locality": "Koramangala",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "Desserts",
+                                                "Bakery",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.6,
+                                            "parentId": "1040",
+                                            "avgRatingString": "4.6",
+                                            "totalRatingsString": "6.7K+",
+                                            "sla": {
+                                                "deliveryTime": 18,
+                                                "lastMileTravel": 1.4,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "15-20 mins",
+                                                "lastMileTravelString": "1.4 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-10 23:15:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Desserts.png",
+                                                        "description": "Delivery!"
+                                                    },
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Gourmet"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Gourmet",
+                                                                    "imageId": "newg.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "50% OFF",
+                                                "discountTag": "FLAT DEAL"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.1",
+                                                    "ratingCount": "587"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/theobroma-koramangala-rest426776",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "393840",
+                                            "name": "Chinese Wok",
+                                            "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+                                            "locality": "Chikka Lakshmaiah Layout",
+                                            "areaName": "Adugodi",
+                                            "costForTwo": "₹250 for two",
+                                            "cuisines": [
+                                                "Chinese",
+                                                "Asian",
+                                                "Tibetan",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "parentId": "61955",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "6.4K+",
+                                            "sla": {
+                                                "deliveryTime": 40,
+                                                "lastMileTravel": 2.4,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "40-50 mins",
+                                                "lastMileTravelString": "2.4 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-11 02:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹119"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/chinese-wok-chikka-lakshmaiah-layout-adugodi-rest393840",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "49841",
+                                            "name": "Ibaco",
+                                            "cloudinaryImageId": "cnemnwt1gcdar8rzdjqj",
+                                            "locality": "Koramangala",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹800 for two",
+                                            "cuisines": [
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "veg": true,
+                                            "parentId": "3481",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "1.7K+",
+                                            "sla": {
+                                                "deliveryTime": 19,
+                                                "lastMileTravel": 0.8,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "15-20 mins",
+                                                "lastMileTravelString": "0.8 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-10 23:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Gourmet"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "aggregatedDiscountInfoV2": {},
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Gourmet",
+                                                                    "imageId": "newg.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.2",
+                                                    "ratingCount": "1.3K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/ibaco-koramangala-rest49841",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "5934",
+                                            "name": "Burger King",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/ac30c19f-5572-448a-9c6a-44be9d986625_5934.jpg",
+                                            "locality": "Koramangala",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹350 for two",
+                                            "cuisines": [
+                                                "Burgers",
+                                                "American"
+                                            ],
+                                            "avgRating": 4.1,
+                                            "parentId": "166",
+                                            "avgRatingString": "4.1",
+                                            "totalRatingsString": "103K+",
+                                            "sla": {
+                                                "deliveryTime": 29,
+                                                "lastMileTravel": 2,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "2.0 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-11 06:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹55"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.2",
+                                                    "ratingCount": "4.3K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/burger-king-koramangala-rest5934",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "671928",
+                                            "name": "KFC",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/17/6cec62e3-0e46-4568-b442-46ab91bfe078_671928.JPG",
+                                            "locality": "7th Block",
+                                            "areaName": "Koramangla",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "Burgers",
+                                                "Fast Food",
+                                                "Rolls & Wraps"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "parentId": "547",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "5.8K+",
+                                            "sla": {
+                                                "deliveryTime": 19,
+                                                "lastMileTravel": 1.2,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "15-20 mins",
+                                                "lastMileTravelString": "1.2 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-11 03:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹75"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/kfc-7th-block-koramangla-rest671928",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "140887",
+                                            "name": "McDonald's",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/3/e3d9e640-0895-4eb9-9122-84111814735a_140887.JPG",
+                                            "locality": "Mantri Avenue",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹400 for two",
+                                            "cuisines": [
+                                                "Burgers",
+                                                "Beverages",
+                                                "Cafe",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "parentId": "630",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "10K+",
+                                            "sla": {
+                                                "deliveryTime": 27,
+                                                "lastMileTravel": 1.5,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "1.5 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-10 22:55:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Ratnesh_Badges/Rx_Awards_2025/Bolt.png",
+                                                        "description": "Delivery!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Ratnesh_Badges/Rx_Awards_2025/Bolt.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹119"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/mcdonalds-mantri-avenue-koramangala-rest140887",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "717421",
+                                            "name": "Paris Panini - Gourmet Sandwiches & Wraps",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/10/1b14de7e-7efc-4eaa-aa07-95f1ab50dc58_717421 (1).jpg",
+                                            "locality": "BTM Layout",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹500 for two",
+                                            "cuisines": [
+                                                "sandwich",
+                                                "wrap",
+                                                "Fast Food",
+                                                "Pastas",
+                                                "Italian",
+                                                "Salads",
+                                                "Healthy Food",
+                                                "Desserts",
+                                                "Continental"
+                                            ],
+                                            "avgRating": 4.6,
+                                            "parentId": "21019",
+                                            "avgRatingString": "4.6",
+                                            "totalRatingsString": "4.8K+",
+                                            "sla": {
+                                                "deliveryTime": 27,
+                                                "lastMileTravel": 1.6,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "1.6 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-10 23:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Sandwiches.png",
+                                                        "description": "Delivery!"
+                                                    },
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Gourmet"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Sandwiches.png"
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Gourmet",
+                                                                    "imageId": "newg.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "40% OFF",
+                                                "subHeader": "UPTO ₹80"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/paris-panini-gourmet-sandwiches-and-wraps-btm-layout-koramangala-rest717421",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "41913",
+                                            "name": "Chinita Real Mexican Food",
+                                            "cloudinaryImageId": "29fc772cc06b07a4b018e4971d96c9a3",
+                                            "locality": "Koramangala",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹750 for two",
+                                            "cuisines": [
+                                                "Mexican",
+                                                "Salads",
+                                                "Desserts",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "parentId": "5064",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "8.0K+",
+                                            "sla": {
+                                                "deliveryTime": 23,
+                                                "lastMileTravel": 0.3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "0.3 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-10 23:30:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Gourmet"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Gourmet",
+                                                                    "imageId": "newg.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "60% OFF",
+                                                "subHeader": "UPTO ₹120"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.2",
+                                                    "ratingCount": "2.2K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/chinita-real-mexican-food-koramangala-rest41913",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "158855",
+                                            "name": "Candice's Gourmet Sandwiches & Wraps",
+                                            "cloudinaryImageId": "d1331113564b015c9d55c48ff48a2553",
+                                            "locality": "5th Block",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹600 for two",
+                                            "cuisines": [
+                                                "Salads",
+                                                "sandwich",
+                                                "Snacks"
+                                            ],
+                                            "avgRating": 4.6,
+                                            "parentId": "465403",
+                                            "avgRatingString": "4.6",
+                                            "totalRatingsString": "4.5K+",
+                                            "sla": {
+                                                "deliveryTime": 22,
+                                                "lastMileTravel": 0.3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "20-25 mins",
+                                                "lastMileTravelString": "0.3 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-10 23:30:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Gourmet"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Gourmet",
+                                                                    "imageId": "newg.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "60% OFF",
+                                                "subHeader": "UPTO ₹120"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/candices-gourmet-sandwiches-and-wraps-5th-block-koramangala-rest158855",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "50467",
+                                            "name": "Bakingo",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/28/da2273c2-b22e-4e54-9f31-3c4251ac7580_50467.JPG",
+                                            "locality": "1st Block",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "Bakery",
+                                                "Desserts",
+                                                "Beverages",
+                                                "Snacks"
+                                            ],
+                                            "avgRating": 4.6,
+                                            "parentId": "3818",
+                                            "avgRatingString": "4.6",
+                                            "totalRatingsString": "12K+",
+                                            "sla": {
+                                                "deliveryTime": 35,
+                                                "lastMileTravel": 2.7,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "30-35 mins",
+                                                "lastMileTravelString": "2.7 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-11 01:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {},
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {},
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹79"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/bakingo-1st-block-koramangala-rest50467",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "718430",
+                                            "name": "The Pizza Bakery - Wood Fired Sourdough",
+                                            "cloudinaryImageId": "0335dd45be555d0a4187255e57d2ca88",
+                                            "locality": "BTM Layout",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹700 for two",
+                                            "cuisines": [
+                                                "Pizzas",
+                                                "Pastas",
+                                                "Italian",
+                                                "Desserts",
+                                                "Continental",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "parentId": "522292",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "2.9K+",
+                                            "sla": {
+                                                "deliveryTime": 29,
+                                                "lastMileTravel": 1.6,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "25-30 mins",
+                                                "lastMileTravelString": "1.6 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-10 23:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                                                        "description": "Delivery!"
+                                                    },
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Gourmet"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Delivery!",
+                                                                    "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Gourmet",
+                                                                    "imageId": "newg.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "40% OFF",
+                                                "subHeader": "UPTO ₹80"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/the-pizza-bakery-wood-fired-sourdough-btm-layout-koramangala-rest718430",
+                                            "type": "WEBLINK"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "id": "736632",
+                                            "name": "Saladspoint",
+                                            "cloudinaryImageId": "6116a2736e177c4a872d11a9d077584a",
+                                            "locality": "Madiwala",
+                                            "areaName": "Koramangala",
+                                            "costForTwo": "₹500 for two",
+                                            "cuisines": [
+                                                "Salads",
+                                                "Healthy food",
+                                                "Juices",
+                                                "Beverages"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "parentId": "8786",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "1.4K+",
+                                            "sla": {
+                                                "deliveryTime": 36,
+                                                "lastMileTravel": 1.7,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "35-40 mins",
+                                                "lastMileTravelString": "1.7 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-11-11 03:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "High%20Protein/rx%20tag%205.png",
+                                                        "description": "High Protein"
+                                                    },
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Gourmet"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "High Protein",
+                                                                    "imageId": "High%20Protein/rx%20tag%205.png"
+                                                                }
+                                                            },
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Gourmet",
+                                                                    "imageId": "newg.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "aggregatedDiscountInfoV3": {
+                                                "header": "ITEMS",
+                                                "subHeader": "AT ₹99"
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-f8b69561-9982-400f-a926-c2f5f219b05d"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/bangalore/saladspoint-madiwala-koramangala-rest736632",
+                                            "type": "WEBLINK"
+                                        }
+                                    }
+                                ]
+                            }
