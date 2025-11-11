@@ -1,13 +1,12 @@
+import { useParams } from "react-router-dom";
 import { IMAGE_URL, API_URL } from "../Utils/constants";
 
-const data = async() => { await fetch(API_URL);
-    const json = await data.json();
-    console.log('json',json);
-}
 
 const RestaurantCard =({resObj}) => {
     // console.log("resList", resObj);
-    
+    // const { name, avgRating, cuisines, areaName, cloudinaryImageId } = resObj;
+    // const {resId} = useParams(); npot here it willl be on map function
+
    return(
         <div className="rounded-xl flex border p-4 m-4 w-70 flex-col shadow-lg transition-transform duration-500 ease-in-out hover:scale-105">
             <img className='border-green-700 border-5 rounded-2xl h-40 w-60' src={IMAGE_URL + resObj.cloudinaryImageId}/>
@@ -18,10 +17,6 @@ const RestaurantCard =({resObj}) => {
         </div>
     )
 }
-
-
-// https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/5/7/2b1d78bb-5604-46db-99ba-02de93dc58a2_881203.jpg
-// https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/258f53ef-fe93-4523-902c-37f3229b1a39_806682.jpg
 
 
 export default RestaurantCard;

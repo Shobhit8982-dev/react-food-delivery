@@ -1,61 +1,54 @@
-    // Incorrect (for React 18+)
-    // import ReactDOM from 'react-dom';
-    // const root = ReactDOM.createRoot(document.getElementById('root'));
-    // Correct (for React 18+)
-    // import { createRoot } from 'react-dom/client';
-    // const root = createRoot(document.getElementById('root'));
-import React from "react";
-import ReactDOM from 'react-dom/client'
+// Incorrect (for React 18+)
+// import ReactDOM from 'react-dom';
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// Correct (for React 18+)
 // import { createRoot } from 'react-dom/client';
-import './App.css'
+// const root = createRoot(document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom/client";
+// import { createRoot } from 'react-dom/client';
+import "./App.css";
 import Header from "./src/components/Header";
-import {Outlet,createBrowserRouter,RouterProvider } from "react-router-dom";
+import { Outlet, createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Footer } from "./src/components/Footer";
 import { Body } from "./src/components/Body";
 import About from "./src/components/About";
 import Contact from "./src/components/Contact";
+import Error from "./src/components/Error";
+import RestaurantMenu from "./src/components/RestaurantMenu";
 
 const AppLayout = () => {
-    return(
-        <div className="app">
-            <Header />
-            <Outlet />
-            <Footer />
-            
-        </div>
-    )
-}
+  return (
+    <div className="app">
+      <Header />
+      <Outlet />
+      <Footer />
+    </div>
+  );
+};
 
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <AppLayout />,
-      children:[
-        {path: "/",
-        element: <Body />},
-        {
-            path:'/about',
-            element:<About />
-        },
-        {
-            path: '/contact',
-            element: <Contact />
-        }
-      ]
-    }
+  {
+    path: "/",
+    element: <AppLayout />,
+    children: [
+      { path: "/", element: <Body /> },
+      { path: "/about", element: <About /> },
+      { path: "/contact", element: <Contact /> },
+      { path: '/restaurant/:resId', element: <RestaurantMenu /> }
+    ],
+    errorElement: <Error />
+  },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<RouterProvider router={router}/>);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RouterProvider router={router} />);
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // // const root = createRoot(document.getElementById('root'));
 // root.render(<AppLayout/>)
 
 //--------------------------------------------------------------------------
-
-
-
 
 // Great question! In <RestaurantCard resObj={resObj} />, the first resObj is the prop name (what the child component will receive), and the second resObj is the variable or object you are passing from the parent.
 
@@ -66,7 +59,6 @@ root.render(<RouterProvider router={router}/>);
 // This lets you choose any prop name you want, and pass any variable or value you want.
 
 // -------------------------------------------------------
-
 
 // You can pass props in React using these main syntaxes:
 
@@ -84,8 +76,6 @@ root.render(<RouterProvider router={router}/>);
 // Individual attributes
 // Spread operator
 // Object as a single prop
-
-
 
 // Here’s a simple flow of how props are passed in your code:
 
