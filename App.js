@@ -1,12 +1,6 @@
-// Incorrect (for React 18+)
-// import ReactDOM from 'react-dom';
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// Correct (for React 18+)
-// import { createRoot } from 'react-dom/client';
-// const root = createRoot(document.getElementById('root'));
-import React from "react";
+
 import ReactDOM from "react-dom/client";
-// import { createRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import "./App.css";
 import Header from "./src/components/Header";
 import { Outlet, createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -45,7 +39,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<RouterProvider router={router} />);
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
-// // const root = createRoot(document.getElementById('root'));
+// const root = createRoot(document.getElementById('root'));
 // root.render(<AppLayout/>)
 
 //--------------------------------------------------------------------------
