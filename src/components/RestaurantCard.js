@@ -3,9 +3,6 @@ import { IMAGE_URL, API_URL } from "../Utils/constants";
 
 
 const RestaurantCard =({resObj}) => {
-    // console.log("resList", resObj);
-    // const { name, avgRating, cuisines, areaName, cloudinaryImageId } = resObj;
-    // const {resId} = useParams(); npot here it willl be on map function
 
    return(
         <div className="rounded-xl flex border p-4 m-4 w-70 flex-col shadow-lg transition-transform duration-500 ease-in-out hover:scale-105">
