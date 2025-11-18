@@ -251,3 +251,20 @@ A clean working JSX version.
 The difference between HTML & JSX in simple terms.
 
 The final working example to copy.
+
+
+<!-- const RestaurantCard =(props) => {
+    const {resObj} = props;    //here we are destructuring props to get resObj. 
+                               // here the entire resObj is passed as a prop to 
+                               // RestaurantCard component from AppLayout component.inside the component 
+                               // we can access it using props.resObj or we can destructure it like this.
+    return(
+        <div className="resCard">
+            <img className='resImg' src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+resObj.cloudinaryImageId}/>
+            <h3 className="resName">{resObj.name}</h3>
+            <h4 className="rating">{resObj.avgRating}</h4>
+            <h4 className="foodItems">{resObj.cuisines.join(", ")}</h4>
+            <h4 className="location">{resObj.areaName}</h4>
+        </div>
+    )
+} -->
