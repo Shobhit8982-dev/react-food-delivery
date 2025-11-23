@@ -4495,10 +4495,478 @@ export const menuData = {
     "deviceId": "ed394ab9-3982-dc5b-dbf8-7b8b6eb08c4e",
     "csrfToken": "EJSED6e7QbDq-UwP-agYqmfEhi9umC5aaaB4TFTc"
 }
+// export const menuData1 = {
+//   "data": [
+//     {
+//       "info": { "id": "10576", "name": "Pizza Hut" },
+//       "menu": [
+//         {
+//           "card": {
+//             "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+//             "info": {
+//               "id": "105761",
+//               "name": "Margherita Pizza",
+//               "category": "Pizzas",
+//               "description": "Classic cheese and tomato pizza with 100% mozzarella.",
+//               "imageId": "pizza_margherita_10576.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 22900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "105762",
+//               "name": "Veggie Supreme",
+//               "category": "Pizzas",
+//               "description": "Loaded with crisp capsicum, onions, and juicy sweet corn.",
+//               "imageId": "pizza_veggie_supreme_10576.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 33900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "426776", "name": "Theobroma" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "4267761",
+//               "name": "Chocolate Truffle Pastry",
+//               "category": "Desserts",
+//               "description": "Rich dark chocolate pastry topped with ganache.",
+//               "imageId": "theobroma_truffle_426776.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 19500
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "4267762",
+//               "name": "Red Velvet Cupcake",
+//               "category": "Cupcakes",
+//               "description": "Soft red velvet cake topped with cream cheese frosting.",
+//               "imageId": "theobroma_redvelvet_426776.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 14500
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "426777", "name": "Chinese Wok" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "4267771",
+//               "name": "Veg Schezwan Noodles",
+//               "category": "Chinese",
+//               "description": "Spicy stir-fried noodles tossed with veggies and Schezwan sauce.",
+//               "imageId": "wok_schezwan_noodles.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 20900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "4267772",
+//               "name": "Chicken Fried Rice",
+//               "category": "Chinese",
+//               "description": "Aromatic rice stir-fried with eggs, chicken, and soy sauce.",
+//               "imageId": "wok_fried_rice.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 22900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "49841", "name": "Ibaco" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "498411",
+//               "name": "Belgian Chocolate Ice Cream",
+//               "category": "Ice Creams",
+//               "description": "Premium chocolate ice cream made with Belgian cocoa.",
+//               "imageId": "ibaco_belgian_choco.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 16500
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "498412",
+//               "name": "Caramel Crunch Sundae",
+//               "category": "Sundaes",
+//               "description": "A creamy caramel sundae with crunchy toppings.",
+//               "imageId": "ibaco_caramel_crunch.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 18900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "5934", "name": "Burger King" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "59341",
+//               "name": "Whopper",
+//               "category": "Burgers",
+//               "description": "Signature flame-grilled beef burger with lettuce and tomato.",
+//               "imageId": "bk_whopper.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 24900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "59342",
+//               "name": "Crispy Veg Burger",
+//               "category": "Burgers",
+//               "description": "Crispy patty made with garden vegetables and mayo.",
+//               "imageId": "bk_crispyveg.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 14900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "671928", "name": "KFC" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "6719281",
+//               "name": "Zinger Burger",
+//               "category": "Burgers",
+//               "description": "Crispy chicken fillet, lettuce, and mayo in a sesame bun.",
+//               "imageId": "kfc_zinger.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 19900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "6719282",
+//               "name": "Hot & Crispy Chicken (2pc)",
+//               "category": "Chicken Buckets",
+//               "description": "KFC’s iconic crispy chicken pieces with secret herbs and spices.",
+//               "imageId": "kfc_hotcrispy.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 24900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "140887", "name": "McDonald's" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "1408871",
+//               "name": "McAloo Tikki Burger",
+//               "category": "Burgers",
+//               "description": "Iconic burger with spiced potato patty and tangy sauce.",
+//               "imageId": "mcd_alooburger.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 12900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "1408872",
+//               "name": "Chicken McNuggets (6pc)",
+//               "category": "Snacks",
+//               "description": "Crispy golden chicken nuggets served with sauce.",
+//               "imageId": "mcd_nuggets.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 18900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "717421", "name": "Paris Pani Puri" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "7174211",
+//               "name": "Pani Puri Plate",
+//               "category": "Snacks",
+//               "description": "Tangy, spicy water-filled puris with potato filling.",
+//               "imageId": "paris_panipuri_plate.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 9900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "7174212",
+//               "name": "Ragda Puri",
+//               "category": "Snacks",
+//               "description": "Crispy puris stuffed with ragda and tangy chutneys.",
+//               "imageId": "paris_ragda.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 11900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "41913", "name": "Chinita Real Mexican Food" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "419131",
+//               "name": "Chicken Burrito Bowl",
+//               "category": "Mexican",
+//               "description": "Rice, beans, salsa, and chicken topped with cheese and sour cream.",
+//               "imageId": "chinita_burrito_bowl.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 32900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "419132",
+//               "name": "Veg Tacos (2pcs)",
+//               "category": "Mexican",
+//               "description": "Crispy taco shells filled with sautéed veggies and salsa.",
+//               "imageId": "chinita_tacos.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 25900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "158855", "name": "Candice's Gourmet Sandwich" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "1588551",
+//               "name": "Grilled Chicken Sandwich",
+//               "category": "Sandwiches",
+//               "description": "Grilled chicken, lettuce, and mayo on multigrain bread.",
+//               "imageId": "candice_chickensandwich.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 21900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "1588552",
+//               "name": "Paneer Tikka Sandwich",
+//               "category": "Sandwiches",
+//               "description": "Spicy paneer cubes with mint chutney and cheese.",
+//               "imageId": "candice_paneer.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 18900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "50467", "name": "Bakingo" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "504671",
+//               "name": "Chocolate Truffle Cake",
+//               "category": "Cakes",
+//               "description": "Moist chocolate sponge layered with rich ganache.",
+//               "imageId": "bakingo_truffle.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 49900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "504672",
+//               "name": "Fruit Cake",
+//               "category": "Cakes",
+//               "description": "Soft vanilla sponge with fresh fruits and whipped cream.",
+//               "imageId": "bakingo_fruitcake.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 45900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "718430", "name": "Pizza Factory" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "7184301",
+//               "name": "Pepperoni Pizza",
+//               "category": "Pizzas",
+//               "description": "Classic pepperoni pizza with mozzarella cheese.",
+//               "imageId": "pf_pepperoni.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 31900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "7184302",
+//               "name": "Farmhouse Pizza",
+//               "category": "Pizzas",
+//               "description": "Loaded with onions, capsicum, tomatoes & mushrooms.",
+//               "imageId": "pf_farmhouse.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 28900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "736632", "name": "Salad Point" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "7366321",
+//               "name": "Caesar Salad",
+//               "category": "Salads",
+//               "description": "Crisp lettuce, croutons, and parmesan tossed in Caesar dressing.",
+//               "imageId": "saladpoint_caesar.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 19900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "7366322",
+//               "name": "Grilled Chicken Salad",
+//               "category": "Salads",
+//               "description": "Fresh greens topped with grilled chicken and vinaigrette.",
+//               "imageId": "saladpoint_chickensalad.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 22900
+//             }
+//           }
+//         }
+//       ]
+//     },
+//     {
+//       "info": { "id": "733092", "name": "Caters Point" },
+//       "menu": [
+//         {
+//           "card": {
+//             "info": {
+//               "id": "7330921",
+//               "name": "Paneer Butter Masala with Rice",
+//               "category": "North Indian",
+//               "description": "Rich creamy curry served with steamed basmati rice.",
+//               "imageId": "caters_paneer_rice.jpg",
+//               "inStock": 1,
+//               "isVeg": 1,
+//               "price": 25900
+//             }
+//           }
+//         },
+//         {
+//           "card": {
+//             "info": {
+//               "id": "7330922",
+//               "name": "Chicken Tikka Combo",
+//               "category": "North Indian",
+//               "description": "Grilled chicken tikka with roti and salad.",
+//               "imageId": "caters_tikka_combo.jpg",
+//               "inStock": 1,
+//               "isVeg": 0,
+//               "price": 28900
+//             }
+//           }
+//         }
+//       ]
+//     }
+//   ]
+// }
+
 export const menuData1 = {
   "data": [
     {
-      "info": { "id": "10576", "name": "Pizza Hut" },
+      "info": { "id": "762045", "name": "Martino'z Pizza - Geeta Bhawan" },
       "menu": [
         {
           "card": {
@@ -4532,7 +5000,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "426776", "name": "Theobroma" },
+      "info": { "id": "612154", "name": "Vrindavan- Flavors For Royalty" },
       "menu": [
         {
           "card": {
@@ -4565,7 +5033,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "426777", "name": "Chinese Wok" },
+      "info": { "id": "496876", "name": "Haji Hotel Prime" },
       "menu": [
         {
           "card": {
@@ -4598,7 +5066,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "49841", "name": "Ibaco" },
+      "info": { "id": "735089", "name": "Martino'z Pizza - Bhawar Kuan" },
       "menu": [
         {
           "card": {
@@ -4631,7 +5099,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "5934", "name": "Burger King" },
+      "info": { "id": "62528", "name": "Ice Balls & Slice Square" },
       "menu": [
         {
           "card": {
@@ -4664,7 +5132,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "671928", "name": "KFC" },
+      "info": { "id": "1133274", "name": "The Curry and Kebab" },
       "menu": [
         {
           "card": {
@@ -4697,7 +5165,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "140887", "name": "McDonald's" },
+      "info": { "id": "476271", "name": "Apna Ghar" },
       "menu": [
         {
           "card": {
@@ -4730,7 +5198,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "717421", "name": "Paris Pani Puri" },
+      "info": { "id": "947197", "name": "Olio – The Wood Fired Pizzeria" },
       "menu": [
         {
           "card": {
@@ -4763,7 +5231,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "41913", "name": "Chinita Real Mexican Food" },
+      "info": { "id": "255165", "name": "Ministry Of Chicken" },
       "menu": [
         {
           "card": {
@@ -4796,7 +5264,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "158855", "name": "Candice's Gourmet Sandwich" },
+      "info": { "id": "63800", "name": "Cafe Yolo" },
       "menu": [
         {
           "card": {
@@ -4829,7 +5297,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "50467", "name": "Bakingo" },
+      "info": { "id": "475536", "name": "La Pino'z Pizza" },
       "menu": [
         {
           "card": {
@@ -4862,7 +5330,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "718430", "name": "Pizza Factory" },
+      "info": { "id": "65266", "name": "McDonald's" },
       "menu": [
         {
           "card": {
@@ -4895,7 +5363,7 @@ export const menuData1 = {
       ]
     },
     {
-      "info": { "id": "736632", "name": "Salad Point" },
+      "info": { "id": "947198", "name": "Crusto's – Cheese Burst Pizza By Olio" },
       "menu": [
         {
           "card": {
@@ -4926,42 +5394,11 @@ export const menuData1 = {
           }
         }
       ]
-    },
-    {
-      "info": { "id": "733092", "name": "Caters Point" },
-      "menu": [
-        {
-          "card": {
-            "info": {
-              "id": "7330921",
-              "name": "Paneer Butter Masala with Rice",
-              "category": "North Indian",
-              "description": "Rich creamy curry served with steamed basmati rice.",
-              "imageId": "caters_paneer_rice.jpg",
-              "inStock": 1,
-              "isVeg": 1,
-              "price": 25900
-            }
-          }
-        },
-        {
-          "card": {
-            "info": {
-              "id": "7330922",
-              "name": "Chicken Tikka Combo",
-              "category": "North Indian",
-              "description": "Grilled chicken tikka with roti and salad.",
-              "imageId": "caters_tikka_combo.jpg",
-              "inStock": 1,
-              "isVeg": 0,
-              "price": 28900
-            }
-          }
-        }
-      ]
     }
   ]
 }
+
+
 export const restaurantList1 ={
     "restaurants":
      [
