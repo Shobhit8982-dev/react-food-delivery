@@ -4963,7 +4963,7 @@ export const menuData = {
 //   ]
 // }
 
-export const menuData1 = {
+ export const menuData1 = {
   "data": [
     {
       "info": { "id": "762045", "name": "Martino'z Pizza - Geeta Bhawan" },

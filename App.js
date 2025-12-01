@@ -11,8 +11,10 @@ import Error from "./src/components/Error";
 import RestaurantMenu from "./src/components/RestaurantMenu";
 
 const AppLayout = () => {
+
   return (
     <div className="app">
+      
       <Header />
       <Outlet />
       <Footer />
