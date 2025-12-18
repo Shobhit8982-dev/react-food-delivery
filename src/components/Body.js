@@ -1,14 +1,16 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard,{WithPromotedLabel} from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import { API_URL } from "../Utils/constants";
 import { Shimmer } from "./Shimmer";
 import { Link } from "react-router-dom";
 import { resList } from "../Utils/mockData";
+// import { PromotedRestaurantCard } from "./RestaurantCard";
 
 export const Body = () => {
   const [searchText, setSearchText] = useState("");
   const [listOfRestaurants, setListOfRestaurants] = useState(resList?.restaurants || []);
   const [allRestaurants, setAllRestaurants] = useState(resList?.restaurants || []);
+  const PromotedRestaurantCard = WithPromotedLabel(RestaurantCard);
 
 
   useEffect(() => {
@@ -31,6 +33,8 @@ export const Body = () => {
     };
     fetchData();
   }, []);
+  console.log(PromotedRestaurantCard);
+  
 
   const filteredTopRestaurants = () => {
     const topList = allRestaurants.filter((res) => res.info.avgRating > 4.0);
@@ -81,13 +85,13 @@ export const Body = () => {
         </button>
       </div>
 
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap ">
         {filteredRestaurants.map((restaurant) => (
           <Link
             key={restaurant.info.id}
             to={"/restaurant/" + restaurant.info.id}
           >
-            <RestaurantCard resObj={restaurant.info} />
+            { restaurant.info.promoted ? <PromotedRestaurantCard resObj={restaurant.info}/> : <RestaurantCard resObj={restaurant.info} /> }
           </Link>
         ))}
       </div>

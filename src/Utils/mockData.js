@@ -2,6 +2,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": true,
                                             "id": "762045",
                                             "name": "Martino'z Pizza - Geeta Bhawan",
                                             "cloudinaryImageId": "0cc87048cede3de2c85be4368ec88259",
@@ -86,6 +87,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": true,  
                                             "id": "612154",
                                             "name": "Vrindavan- Flavors For Royalty",
                                             "cloudinaryImageId": "gnbjfzlml66jem8p69qo",
@@ -165,6 +167,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": false,
                                             "id": "496876",
                                             "name": "Haji Hotel Prime",
                                             "cloudinaryImageId": "77687afd34b15f19cc2233d67b6c0474",
@@ -243,6 +246,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": false,
                                             "id": "735089",
                                             "name": "Martino'z Pizza - Bhawar Kuan",
                                             "cloudinaryImageId": "0cc87048cede3de2c85be4368ec88259",
@@ -329,6 +333,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": false,
                                             "id": "62528",
                                             "name": "Ice Balls & Slice Square",
                                             "cloudinaryImageId": "soks3qrkgdyuwjtozdxj",
@@ -434,6 +439,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": true,
                                             "id": "1133274",
                                             "name": "The Curry and Kebab",
                                             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/9/be638dd7-feb2-444b-aa4f-3a89a69cbb46_1133274.jpg",
@@ -512,6 +518,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": false,
                                             "id": "476271",
                                             "name": "Apna Ghar",
                                             "cloudinaryImageId": "wh65stnupmuj9al0dahe",
@@ -607,6 +614,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": true,
                                             "id": "947197",
                                             "name": "Olio - The Wood Fired Pizzeria",
                                             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/f63c1e59-137c-4d77-a66c-57c6d8096f0e_947197.JPG",
@@ -725,6 +733,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": false,
                                             "id": "255165",
                                             "name": "Ministry Of Chicken",
                                             "cloudinaryImageId": "kvz7c9n6sikoo4nujvzu",
@@ -805,7 +814,8 @@ export const resList = {"restaurants": [
                                     },
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                                        "info": {
+                                        "info": {  
+                                            "promoted": false,
                                             "id": "63800",
                                             "name": "Cafe Yolo",
                                             "cloudinaryImageId": "cnw5mfg2zuvpkugomjwv",
@@ -920,6 +930,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": false,
                                             "id": "475536",
                                             "name": "La Pino'z Pizza",
                                             "cloudinaryImageId": "5fe4444a065b60c4fe39ef975222c12b",
@@ -1029,6 +1040,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": true,
                                             "id": "65266",
                                             "name": "McDonald's",
                                             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/3/a49c0b5e-4b48-4b45-9f3c-f9659dc3b2f3_65266.JPG",
@@ -1134,6 +1146,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": false,
                                             "id": "947198",
                                             "name": "Crusto's - Cheese Burst Pizza By Olio",
                                             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/26/06e58ac1-e339-40fb-a81d-a0069b6b55a5_947198.jpg",
@@ -1232,6 +1245,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": true,
                                             "id": "420290",
                                             "name": "McDonald's Gourmet Burger Collection",
                                             "cloudinaryImageId": "sn7jvuiuhyfk77rjxjgz",
@@ -1324,6 +1338,7 @@ export const resList = {"restaurants": [
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
+                                            "promoted": false,
                                             "id": "920802",
                                             "name": "Rolling Fresh",
                                             "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/28/aa3c4f27-d65f-4e76-b1d9-547aa6a44383_920802.JPG",
